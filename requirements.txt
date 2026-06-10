@@ -1,0 +1,17 @@
+# AI Video Editor — Python dependencies
+# Install with:  pip install -r requirements.txt
+ 
+moviepy==1.0.3
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+Pillow>=10.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+pygame>=2.5.0          # audio preview on Windows
+ 
+# Optional: GPU support for PyTorch
+# If you have an NVIDIA GPU, install the CUDA-enabled build instead:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+ 
